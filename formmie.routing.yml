@@ -1,0 +1,23 @@
+formmie.custom_controller:
+  path: '/formtable'
+  defaults:
+    _controller: 'Drupal\formmie\Controller\CustomController::content'
+    _title: 'User Details from formmie module'
+  requirements:
+    _permission: 'access_content'
+
+formmie.custom_form:
+  path: '/formtable/form'
+  defaults:
+    _form: 'Drupal\formmie\Form\CustomForm'
+    _title: 'Enter User Details'
+  requirements:
+    _permission: 'TRUE'
+
+formmie.delete_form:
+  path: '/formtable/form/delete/{cid}'
+  defaults:
+    _form: 'Drupal\formmie\Form\DeleteForm'
+    _title: 'Delete User Details'
+  requirements:
+    _permission: 'TRUE'

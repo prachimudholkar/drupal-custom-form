@@ -1,0 +1,7 @@
+formmie.menu:
+  title: 'Formmie'
+  description: 'Formmie module user listing'
+  route_name: formmie.custom_controller
+  weight: 10
+  menu_name: main
+  parent: main

@@ -1,0 +1,5 @@
+name: formmie module
+description: The custom form module
+type: module
+core: 8.x
+package: custom
